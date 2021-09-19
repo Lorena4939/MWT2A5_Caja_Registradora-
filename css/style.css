@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: aliceblue;
+    font-family: Verdana, sans-serif;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo span {
+    color: rgb(47, 202, 0);
+}
+
+.contenido {
+    box-shadow: 0 0 30px 0 rgba(47, 202, 0, 0.781);
+}
+
+.contenido>* {
+    padding: 1em;
+}
+
+.form-group {
+    background: rgb(1, 15, 0);
+    margin: 0;
+    padding: 1.2em;
+    border: none;
+}
+
+.form-group label {
+    width: 100%;
+    padding: .5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(47, 202, 0);
+    color: rgb(16, 212, 42);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control:focus {
+    border: none;
+    background-color: transparent;
+    color: rgb(24, 219, 6);
+    border-bottom: 1px solid rgb(47, 202, 0);
+}
+
+.submit {
+    text-align: center;
+}
+
+.enviar {
+    width: 50%;
+    padding: .5em;
+    border: none;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background: rgb(47, 202, 0);
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
